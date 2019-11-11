@@ -108,7 +108,7 @@ for y=1:n
     ff=2*pi*size(upcross)[1]/((upcross[end] - upcross[1])*0.01)
     append!( freq, ff ) 
 end
-writedlm("Final_Frequency.txt",freq)
+writedlm("Chimera_State_Frequency_profile.txt",freq)
 clf()
 title("Kuramoto  oscillators : Chimera State Frequency Plot")
 plot(freq,"ro",markersize=2)
