@@ -4,7 +4,7 @@
 
 Code File: Kuramoto_multiplex.jl
 
-To execute: "julia <filename>.jl; 
+To execute: "julia filename.jl"; 
 Note the dependencies.
 
 Input: alpha, the phase lag parameter ('α'), taken from the range [0 < α < π]
